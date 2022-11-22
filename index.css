@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
-/*     letter-spacing: 0.5px; */
 }
 
 html, body {
@@ -17,25 +16,32 @@ html, body {
     float: left;
     position: relative;
     background-color: white;
-    padding: 47px 22px;
+    padding: 46px 23px;
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: 16px;
 
 }
 
-h1,li,p {
+.li {
+    font-weight: bold;
+    margin-top: 11px;
+}
+
+.p {
     color: #25396F;
-    font-weight: 500;
+    font-size: 21px;
+    font-weight: bolder;
+    margin-top: 7px;
+}
+
+.h1 {
+    color: #25396F;
+    font-weight: bold;
    }
-   
-p {
-    color: #25396F;
-    font-size: 18px;
-    font-weight: 700;
-}
 
+   
 .left-list {
-    padding-top: 90px;
+    padding-top: 89px;
     position: relative;
 }
 
@@ -43,59 +49,57 @@ p {
     list-style: none;
 }
 
-
-
 .left-list ul li {
-    height: 72px;
-    font-size: 16px;
+    height: 70px;
+    font-size: 15px;
     
 }
 
 .logo-img {
     position: relative;
     float: left;
-    width:40px;
-    height:40px;
+    width:41px;
+    height:41px;
 }
 
 .logo-titulo {
     position: relative;
     float: left;
-    padding-left: 15px;
+    padding-left: 16px;
 }
 
 .left-img {
     position: relative;
     float: left;
-    padding-right: 18px;
-    width: 22px;
-    height: 22px;
+    padding-right: 19px;
+    width: 21px;
+    height: 21px;
 }
 
 .iconos {
-    width: 40px;
-    height: 40px;
+    width: 39px;
+    height: 39px;
     background-color: #F8FBFF;
     border: 1px solid #e2e2e2;
-    border-radius: 8px;
-    padding: 8px 8px;
+    border-radius: 9px;
+    padding: 9px 9px;
     box-sizing: border-box;
     position: relative;
     float: left;
-    margin-right: 8px;
+    margin-right: 9px;
 
 }
 
 .iconos-calendario {
-    width: 40px;
-    height: 40px;
+    width: 39px;
+    height: 39px;
     background-color: #0062FF;
-    border-radius: 8px;
-    padding: 8px 8px;
+    border-radius: 9px;
+    padding: 9px 9px;
     box-sizing: border-box;
     position: relative;
     float: left;
-    margin-right: 8px;
+    margin-right: 9px;
 }
 
 .left-img-sw
@@ -103,48 +107,49 @@ p {
     position: relative;
     float: right;
     padding-right: 15px;
+    margin-bottom: 5px;
     width: 40px;
     height: 40px;
 }
 
-.icon-2 {
-    width: 40px;
-    height: 40px;
+.left-img-rosa {
+    width: 39px;
+    height: 39px;
     background-color: #FA5A7D;
-    border-radius: 8px;
-    padding: 10px 10px;
+    border-radius: 9px;
+    padding: 9px 9px;
     box-sizing: border-box;
     position: relative;
     float: right;
-    margin-right: 10px;
+    margin-right: 9px;
 }
 
-.icon-3 {
-    width: 40px;
-    height: 40px;
+.left-img-log {
+    width: 39px;
+    height: 39px;
     background-color: #FFEFF2;
-    border-radius: 8px;
-    padding: 10px 10px;
+    border-radius: 9px;
+    padding: 9px 9px;
     box-sizing: border-box;
     position: relative;
     float: left;
-    margin-right: 10px;
-    margin-top: 130px;
+    margin-right: 12px;
+    margin-top: 90px;
 }
-.special {
+.left-28 {
     color: white;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: bold;
 }
 
-.special2 {
+.left-img-out {
     color: #FA5A7D;
-    font-weight: 500;
-    font-size: 18px;
-    margin-top: 140px;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 98px;
 }
 
-.content {
+.right {
     width: 82%;
     height: 100%;
     background-color: #F2F7FF;
@@ -152,8 +157,8 @@ p {
     float: left;
 }
 
-.searchbar {
-    width: 1391px;
+.navegacion {
+    width: 1420px;
     height: 55px;
     background-color: white;
     position: relative;
@@ -163,7 +168,7 @@ p {
     margin-left: 39px;
 }
 
-.search-icon {
+.lupa {
     width: 30px;
     height: 30px;
     position: relative;
@@ -171,17 +176,17 @@ p {
     padding: 13px 25px;
 }
 
-.search-text {
+.right-texto {
     color:#8191B8 ;
-    font-weight: 500;
+    font-weight: bold;
     position: relative;
     float: left;
     font-size: 15px;
     padding-left: 18x;
-    padding-top: 18px;
+    padding-top: 15px;
 }
 
-.profile {
+.arabe {
     background-color: #FF760E;
     height: 55px;
     width: 55px;
@@ -192,14 +197,14 @@ p {
     border-radius: 10px;
 }
 
-.profile img {
+.arabe-img {
     height: 50px;
     width: 50px;
     padding-left: 3px;
     padding-top: 5px;
 }
 
-.calendar-1 {
+.calendario-meses {
     width: 1507px;
     height: 171px;
     background-color: white;
@@ -210,7 +215,67 @@ p {
     margin-left: 39px;
 }
 
-.calendar-2 {
+.dias {
+    border-top: 1.5px solid #c7cfe4;
+    width: 1500px;
+    height: 70px;
+    margin: 20px 24px;
+    box-sizing: border-box;
+}
+
+.dias ul li {
+    list-style: none;
+    float: left;
+    padding-right: 173px;
+    padding-top: 26px;
+    color: #c7cfe4;
+    font-size: 17px;
+    
+}
+
+.mes {
+    position: relative;
+    text-align: center;
+    padding-top: 36px;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+.flecha-i  {
+    width: 40px;
+    height: 40px;
+    background-color: #0062FF;
+    border-radius: 8px;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-left: 620px;
+    margin-top: 36px; 
+}
+
+.flecha-d {
+    width: 40px;
+    height: 40px;
+    background-color: #0062FF;
+    border-radius: 8px;
+    box-sizing: border-box;
+    position: relative;
+    float: right;
+    margin-right: 630px;
+    margin-bottom: 50px 15px;
+
+}
+
+.flecha {
+    width: 15px;
+    height: 15px;
+    padding: 12px 10px;
+}
+
+.calendar-semanas {
     width: 1507px;
     height: 610px;
     background-color: white;
@@ -223,65 +288,7 @@ p {
     box-sizing: border-box;
 } 
 
-.days {
-    border-top: 1.5px solid #c7cfe4;
-    width: 1459px;
-    height: 64px;
-    margin: 45px 24px;
-    box-sizing: border-box;
-}
-
-.days ul li {
-    list-style: none;
-    float: left;
-    padding-right: 173px;
-    padding-top: 26px;
-    color: #c7cfe4;
-    font-size: 17px;
-    
-}
-
-.month {
-    position: relative;
-    text-align: center;
-    padding-top: 36px;
-    box-sizing: border-box;
-    list-style: none;
-    font-size: 18px;
-    font-weight: 700;
-
-}
-
-.arrow1 {
-    width: 40px;
-    height: 40px;
-    background-color: #0062FF;
-    border-radius: 8px;
-    box-sizing: border-box;
-    position: relative;
-    float: left;
-    margin-left: 620px;
-    margin-top: 36px; 
-}
-
-.arrow2 {
-    width: 40px;
-    height: 40px;
-    background-color: #0062FF;
-    border-radius: 8px;
-    box-sizing: border-box;
-    position: relative;
-    float: right;
-    margin-right: 620px;
-}
-
-.arrow-icon {
-    width: 15px;
-    height: 15px;
-    padding: 12px 10px;
-}
-
-.date {
+.fecha{
     width: 190px;
     height: 97px;
     position: relative;
@@ -293,51 +300,24 @@ p {
     border: 1px solid #c7cfe4;
 }
 
-.calendar-2 ul li {
+.calendar-semanas ul li {
     list-style: none;
 }
-.date-text {
+.fecha-texto {
     padding: 10px 10px;
     letter-spacing: 3px;
     font-size: 25px;
 }
 
-.task {
-    padding: 10px 10px;
-    letter-spacing: 3px;
-    font-size: 18px;
-    font-weight: 500;
-    color: #0967FF;
-    letter-spacing: 0.3px;
-}
 
-.task1 {
-    padding: 10px 10px;
-    letter-spacing: 3px;
-    font-size: 18px;
-    font-weight: 500;
-    color: #7C8DB5;
-    letter-spacing: 0.3px;
-}
-
-.task2 {
-    padding: 10px 10px;
-    letter-spacing: 3px;
-    font-size: 18px;
-    font-weight: 500;
-    color: #7C8DB5; 
-    letter-spacing: 0.3px;
-
-}
-
-.date-text2 {
+.fecha-texto-2 {
     padding: 10px 10px;
     letter-spacing: 3px;
     font-size: 25px;
     color: #7C8DB5;
 }
 
-.date2 {
+.fecha-aux-2 {
     width: 190px;
     height: 97px;
     position: relative;
@@ -349,7 +329,7 @@ p {
     border: 1px solid #c7cfe4;
 }
 
-.date1 {
+.fecha-aux {
     width: 190px;
     height: 97px;
     position: relative;
@@ -359,4 +339,32 @@ p {
     margin-bottom: 15px;
     float: left;
     border: 1px solid #c7cfe4;
+}
+
+.tareas {
+    padding: 10px 10px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0967FF;
+    letter-spacing: 0.3px;
+}
+
+.tareas-aux {
+    padding: 10px 10px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #7C8DB5;
+    letter-spacing: 0.3px;
+}
+
+.tareas-aux-2 {
+    padding: 10px 10px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #7C8DB5; 
+    letter-spacing: 0.3px;
+
 }
